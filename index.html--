@@ -1,0 +1,500 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="" />
+<!-- css files -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/cobox.css" rel="stylesheet" type="text/css">
+<link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<!-- /css files -->
+<!-- font links -->
+<link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+<!-- /font links -->
+<!-- js files -->
+<script src="js/modernizr.custom.js"></script>
+<!-- /js files -->
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">My Blog</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav link-effect">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+<!-- Banner -->
+<div class="banner">
+	<ul class="rslides" id="slider">
+		<li>
+			<div class="banner-info">
+				<h3>Its My Life</h3>
+				<span class="line1"></span>
+				<p>As the moon , so beautiful.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					<a href="https://user.qzone.qq.com/742232319"><span class="facebook"></span></a>
+					<a href="https://music.163.com/#/user/home?id=310032227"><span class="twitter"></span></a>
+					<a href="https://www.zhihu.com/people/shadowhunter-20/activities"><span class="linkedin"></span></a>
+					<a href="https://github.com/Fallinginyoureye"><span class="googleplus"></span></a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="banner-info">
+				<h3>My Passion</h3>
+				<span class="line1"></span>
+				<p>As the moon , so beautiful.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					<a href="https://user.qzone.qq.com/742232319"><span class="facebook"></span></a>
+					<a href="https://music.163.com/#/user/home?id=310032227"><span class="twitter"></span></a>
+					<a href="https://www.zhihu.com/people/shadowhunter-20/activities"><span class="linkedin"></span></a>
+					<a href="https://github.com/Fallinginyoureye"><span class="googleplus"></span></a>
+				</div>
+			</div>
+		</li>
+		<li>
+			<div class="banner-info">
+				<h3>My Life Style</h3>
+				<span class="line1"></span>
+				<p>As the moon , so beautiful.</p>
+				<span class="line2"></span>
+				<div class="social-icons">
+					<a href="https://user.qzone.qq.com/742232319"><span class="facebook"></span></a>
+					<a href="https://music.163.com/#/user/home?id=310032227"><span class="twitter"></span></a>
+					<a href="https://www.zhihu.com/people/shadowhunter-20/activities"><span class="linkedin"></span></a>
+					<a href="https://github.com/Fallinginyoureye"><span class="googleplus"></span></a>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<!-- /Banner -->
+<!-- About -->
+<div class="about-me" id="about">
+	<h3 class="text-center slideanim">About My Skills</h3>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<div class="mydetails slideanim text-center">
+					<img class="img-circle img-responsive" src="images/man.jpg" alt="Generic placeholder image" width="200" height="200">
+					<h3>Dong Jiaxin</h3>
+					<p>Java Program Developer</p>
+					<div class="social-icons">
+						<a href="https://user.qzone.qq.com/742232319"><span class="facebook"></span></a>
+						<a href="https://music.163.com/#/user/home?id=310032227"><span class="twitter"></span></a>
+						<a href="https://www.zhihu.com/people/shadowhunter-20/activities"><span class="linkedin"></span></a>
+						<a href="https://github.com/Fallinginyoureye"><span class="googleplus"></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-xs-12">
+				<div class="myskills slideanim">
+					<h3 class="text-center">My Skill Info</h3>
+					<p class="skill-text">I have skills more than you can see.</p>
+					<div class="skill-info">
+						<div class="table-responsive">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td><h4>严肃</h4></td>
+										<td><span class="longline1"></span><span class="shortline1"></span></td>
+										<td><p>93%</p></td>
+									</tr>
+									<tr>
+										<td><h4>逗比</h4></td>
+										<td><span class="longline2"></span><span class="shortline2"></span></td>
+										<td><p>90%</p></td>
+									</tr>
+									<tr>
+										<td><h4>黑暗</h4></td>
+										<td><span class="longline3"></span><span class="shortline3"></span></td>
+										<td><p>95%</p></td>
+									</tr>
+									<tr>
+										<td><h4>高冷</h4></td>
+										<td><span class="longline4"></span><span class="shortline4"></span></td>
+										<td><p>90%</p></td>
+									</tr>
+									<tr>
+										<td><h4>玩梗</h4></td>
+										<td><span class="longline5"></span><span class="shortline5"></span></td>
+										<td><p>99%</p></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /About -->
+
+<!-- Portfolio -->
+	<div class="myportfolio" id="portfolio">
+		<h3 class="text-center slideanim">My Blogosphere</h3>
+		<p class="text-center slideanim">My Blogs , Just "Click" on them to know More.</p>
+		<section class="vertical" id="grid3d">
+				<div class="grid-wrap">
+					<div class="grid">
+						<figure><img class="slideanim" src="images/1.jpg" alt="img01"/></figure>
+						<figure><img class="slideanim" src="images/2.jpg" alt="img05"/></figure>
+						<figure><img class="slideanim" src="images/3.jpg" alt="img08"/></figure>
+						<figure><img class="slideanim" src="images/4.jpg" alt="img02"/></figure>
+						<figure><img class="slideanim" src="images/5.jpg" alt="img04"/></figure>
+						<figure><img class="slideanim" src="images/6.jpg" alt="img03"/></figure>
+						<figure><img class="slideanim" src="images/7.jpg" alt="img09"/></figure>
+						<figure><img class="slideanim" src="images/10.jpg" alt="大囧纸"/></figure>
+						<figure><img class="slideanim" src="images/12.jpg" alt="Java基础（一）"/></figure>
+						<figure><img class="slideanim" src="images/13.jpg" alt="日记"/></figure>
+						
+					</div>
+				</div><!-- /grid-wrap -->
+				<div class="content">
+					<div>
+						<div class="content-img"><img src="images/1-1.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">长椅的故事</h3>
+						<p class="content-text">坐在旧旧的长椅上，<br>
+									偶尔一束阳光穿透树梢，<br>
+									照射着你的眼眸，<br>
+									看着一个又一个的路人在你身边走过，<br>
+									于是明白了，<br>
+									当你习惯了寂寞，<br>
+									一个人就是全世界。<br><br>
+									你只是悄悄的经过，<br>
+									慢慢的带走我曾经坚信不疑的承诺，<br>
+									却没有带走那遗留的寂寞。<br><br>
+									你说你的回忆剔除的不彻底，<br>
+									还残留着他的点点痕迹，<br>
+									以及离去时凛冽的背影，<br>
+									所以你忘不了，<br>
+									所以你停止不前。<br>
+									如果当全世界都失眠的时候，<br>
+									只有我暗自为你祈祷让我爱的你永远沉睡，<br>
+									忘记那些世俗的尘嚣。<br><br>
+									如果在黑暗深处那历尽磨难的少年，<br>
+									不顾重重险阻，荆棘满路，<br>
+									毅然为你寻找失落的心跳。<br>
+									如果我们老了，<br>
+									请允许我继续痴狂，<br>
+									陪你坐在长椅上，<br>
+									看湖水漫漫的淌。</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/2-2.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">生活不易</h3>
+						<p class="content-text"><br>人生总是充满了大起大落，上一刻还在欢声笑语中上高，下一刻就打出了gg...
+												</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/3-3.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">好累</h3>
+						<p class="content-text">2018 / 06 / 14 下午<br>
+												近日突感身心俱疲，整天浑浑噩噩，或是有不可期之事。。。<br>
+												2018 / 06 / 15 上午<br>
+												一觉睡了9个小时，醒来依旧感到精神不振，疲惫不堪。或许是需要放松一下了。。。<br>
+												</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/4-4.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">bookstore</h3>
+						<p class="content-text">This is a online shop . Press <a href="https://github.com/Fallinginyoureye/bookstore">here</a> to get the resource.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/5-5.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">CRM</h3>
+						<p class="content-text">This is a CRM . Press <a href="https://github.com/Fallinginyoureye/crm-SSM">here</a> to get the resource.</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/6-6.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">空山新雨后</h3>
+						<p class="content-text">空山新雨后，天气晚来秋。<br>
+												明月松间照，清泉石上流。<br>
+												竹喧归浣女，莲动下渔舟。<br>
+												随意春芳歇，王孙自可留。<br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;——王维《山居秋暝》<br><br>
+												突如其来的一场暴风雨，席卷了这个小镇。瞬时风速达到了11级，并夹杂着硕大的冰雹。在这场暴风雨中，本地区的高压变电站被摧毁，电力系统瘫痪长达两天，甚至我的家门口的树被连根拔起，齐刷刷地倒在了大门口，无力地诉说着昨晚的疯狂。。。
+												</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/7-7.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">六级小试</h3>
+						<p class="content-text">作文：商人与消费者之间的信任<br>
+												翻译：私家车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+												听力：玄学。。。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+					</div>
+					
+					<div>
+						<div class="content-img"><img src="images/10-10.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">爱吃jiong子的端午节</h3>
+						<p class="content-text">2018/06/18<br>回想起小时候的端午节，总是那么欢乐。。。</p>
+					</div>
+					
+					<div>
+						<div class="content-img"><img src="images/12-12.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">Java基础面试题</h3>
+						<p class="content-text">2018/06/20<br><br>
+						1、作用域public,private,protected,以及不写时的区别<br>
+						2、Anonymous Inner Class (匿名内部类)是否可以extends(继承)其它类，是否可以implements(实现)interface(接口)<br>
+						3、Static Nested Class 和 Inner Class的不同<br>
+						4、&和&&的区别<br>
+						5、Collection 和 Collections的区别<br>
+						6、什么时候用assert<br>
+						7、String s = new String("xyz");创建了几个String Object<br>
+						8、Math.round(11.5)等於多少? Math.round(-11.5)等於多少<br>
+						9、short s1 = 1; s1 = s1 + 1;有什么错? short s1 = 1; s1 += 1;有什么错<br>
+						10、Java有没有goto<br>
+						11、数组有没有length()这个方法? String有没有length()这个方法<br>
+						12、Overload和Override的区别。Overloaded的方法是否可以改变返回值的类型<br>
+						13、Set里的元素是不能重复的，那么用什么方法来区分重复与否呢? 是用==还是equals()? 它们有何区别<br>
+						14、给我一个你最常见到的runtime exception<br>
+						15、error和exception有什么区别<br>
+						16、List, Set, Map是否继承自Collection接口<br>
+						17、abstract class和interface有什么区别<br>
+						18、abstract的method是否可同时是static,是否可同时是native，是否可同时是synchronized<br>
+						19、接口是否可继承接口? 抽象类是否可实现(implements)接口? 抽象类是否可继承实体类(concrete class)<br>
+						20、构造器Constructor是否可被override<br>
+						21、是否可以继承String类<br>
+						22、try {}里有一个return语句，那么紧跟在这个try后的finally{}里的code会不会被执行，什么时候被执行，在return前还是后<br>
+						23、用最有效率的方法算出2乘以8等於几<br>
+						24、两个对象值相同(x.equals(y) == true)，但却可有不同的hash code，这句话对不对<br>
+						25、当一个对象被当作参数传递到一个方法后，此方法可改变这个对象的属性，并可返回变化后的结果，那么这里到底是值传递还是引用传递<br>
+						26、swtich是否能作用在byte上，是否能作用在long上，是否能作用在String上<br>
+						27、ArrayList和Vector的区别,HashMap和Hashtable的区别<br>
+						28、char型变量中能不能存贮一个中文汉字?为什么?<br>
+						29、GC是什么? 为什么要有GC<br>
+						30、float型float f=3.4是否正确?<br>
+						31、介绍JAVA中的Collection FrameWork(包括如何写自己的数据结构)?<br>
+						32、介绍抽象类与接口？<br>
+						33、STRING与STRINGBUFFER的区别。<br>
+						34、谈谈final, finally, finalize的区别<br>
+						35、面向对象的特征有哪些方面<br>
+						36、String是最基本的数据类型吗<br>
+						37、int 和 Integer 有什么区别<br>
+						38、运行时异常与一般异常有何异同<br>
+						39、说出ArrayList,Vector, LinkedList的存储性能和特性<br>
+						40、HashMap和Hashtable的区别<br>
+						41、heap和stack有什么区别<br>
+						42、Java的接口和C++的虚类的相同和不同处<br>
+						43、Java中的异常处理机制的简单原理和应用<br>
+						44、垃圾回收的优点和原理。并考虑2种回收机制<br>
+						45、你所知道的集合类都有哪些？主要方法？<br>
+						45、描述一下JVM加载class文件的原理机制?<br>
+						46、排序都有哪几种方法？请列举<br>
+						47、JAVA语言如何进行异常处理，关键字：throws,throw,try,catch,finally分别代表什么意义？在try块中可以抛出异常吗？<br>
+						48、一个".java"源文件中是否可以包括多个类（不是内部类）？有什么限制？<br>
+						49、java中有几种类型的流？JDK为每种类型的流提供了一些抽象类以供继承，请说出他们分别是哪些类？<br>
+						50、java中会存在内存泄漏吗，请简单描述。<br>
+						51、java中实现多态的机制是什么？<br>
+						52、垃圾回收器的基本原理是什么？垃圾回收器可以马上回收内存吗？有什么办法主动通知虚拟机进行垃圾回收<br>
+						53、静态变量和实例变量的区别？<br>
+						54、什么是java序列化，如何实现java序列化？<br>
+						55、是否可以从一个static方法内部发出对非static方法的调用？<br>
+						56、写clone()方法时，通常都有一行代码，是什么？<br>
+						57、在JAVA中，如何跳出当前的多重嵌套循环？<br>
+						58、List、Map、Set三个接口，存取元素时，各有什么特点？<br>
+						59、说出一些常用的类，包，接口，请各举5个<br>
+						</p>
+					</div>
+					<div>
+						<div class="content-img"><img src="images/13.jpg" class="img-responsive" alt="my projects"></div>
+						<h3 class="content-text">日记</h3>
+						<p class="content-text">2018/08/07<br>记录我的世界</p>
+					</div>
+					<span class="loading"></span>
+					<span class="icon close-content"></span>
+				</div>
+			</section>
+		</div>
+<!-- /Portfolio -->
+<!-- Gallery -->
+<div class="mygallery" id="gallery">
+	<h3 class="text-center slideanim">My Gallery</h3>
+	<p class="text-center slideanim">So cool , isn't it ?</p><br>
+	<div class="text-center">
+		<a href="images/me1-1.jpg" title="滑鸡"><img src="images/me1.jpg" alt="滑鸡" class="img-responsive slideanim"></a>
+		<a href="images/me2-2.jpg" title="Re:Creators"><img src="images/me2.jpg" alt="Re:Creators" class="img-responsive slideanim"></a>
+		<a href="images/me3-3.jpg" title="My Image Gallery"><img src="images/me3.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me4-4.jpg" title="My Image Gallery"><img src="images/me4.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me5-5.jpg" title="My Image Gallery"><img src="images/me5.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me6-6.jpg" title="My Image Gallery"><img src="images/me6.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me7-7.jpg" title="Uhhh..."><img src="images/me7.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me8-8.jpg" title="My Image Gallery"><img src="images/me8.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me9-9.jpg" title="My Image Gallery"><img src="images/me9.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me10-10.jpg" title="My Image Gallery"><img src="images/me10.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me11-11.jpg" title="My Image Gallery"><img src="images/me11.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/me12-12.jpg" title="My Image Gallery"><img src="images/me12.jpg" alt="example-3" class="img-responsive slideanim"></a>
+		<a href="images/doubi.jpg" title="逗比不止一次"><img src="images/doubi.jpg" alt="doubi" class="img-responsive slideanim"></a>
+		<a href="images/miku.jpg" title="miku"><img src="images/miku.jpg" alt="miku" class="img-responsive slideanim"></a>
+		<a href="images/djq.jpg" title="My Little Brother"><img src="images/djq.jpg" alt="Dongjiaqing" class="img-responsive slideanim"></a>
+		<a href="images/shoushi.jpg" title="程序员手势"><img src="images/shoushi.jpg" alt="程序员手势" class="img-responsive slideanim"></a>
+		<a href="images/software dog.jpg" title="软件狗"><img src="images/software dog.jpg" alt="软件狗" class="img-responsive slideanim"></a>
+	</div>
+
+</div>
+<!-- Gallery -->
+<!-- footer -->
+<div class="contact-me" id="contact">
+	<h3 class="text-center slideanim">Contact Me</h3>
+	<p class="text-center slideanim">Tell me what you want to say for me.</p>
+	<div class="container">
+	<footer>
+		<div class="row">
+			<div class="col-md-6 slideanim">
+				<div class="contact-details">
+					<form action="#" method="post">
+						<div class="row">
+							<div class="col-sm-12 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+							</div>
+							<div class="col-sm-12 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+							</div>
+						</div>
+						<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+						<div class="row">
+							<div class="col-sm-12 form-group">
+								<button class="btn btn-default btn-lg" type="submit">Send <span class="glyphicon glyphicon-menu-right"></span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-6 slideanim">
+				<div class="contact-info">
+					<h4>Contact Info</h4>
+					<p>You can get me by this.</p>
+					<div class="footer-info">
+						<div>
+							<i class="glyphicon glyphicon-globe"></i>
+							<p class="p1">77 ClearRiver Street</p>
+							<p class="p2">Nanyang, CHN</p>
+						</div>
+						<div>
+							<i class="glyphicon glyphicon-phone-alt"></i>
+							<p class="p1">+158 9076 1557</p>
+							<p class="p2">+00 1010101010</p>
+						</div>
+						<div>
+							<i class="glyphicon glyphicon-envelope"></i>
+							<p class="p1"><a href="mailto:ayls_djx@163.com">ayls_dix@163.com</a></p>
+							<p class="p2"><a href="mailto:742232319@qq.com">Dongjiaxin@qq.com</a></p>
+						</div>
+					</div>
+					<h5>Personal Profile</h5>
+					<p>I hope that one day I could catch something I wanna.</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="copyright">
+			<p class="text-center">Copyright &copy; 2018 | Dong Jiaxin All rights reserved.</p>
+		</div>
+		<a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		</footer>
+	</div>
+</div>
+<!-- /footer -->
+	<!-- js files -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- js files for banner slider -->
+	<script src="js/responsiveslides.min.js"></script>
+	  <script>
+    $(window).load(function() {
+
+     // Slideshow for banner
+      $("#slider").responsiveSlides({
+        maxwidth: 1920,
+        speed: 1000
+      });
+
+
+    });
+  </script>
+	<!-- /js files for banner slider -->
+	<!-- js files for portfolio -->
+		<script src="js/classie.js"></script>
+		<script src="js/helper.js"></script>
+		<script src="js/grid3d.js"></script>
+		<script>
+			new grid3D( document.getElementById( 'grid3d' ) );
+		</script>
+	<!-- /js files for portfolio -->
+	<!-- js files for gallery -->
+<script type="text/javascript" src="js/cobox.js"></script>
+	<!-- /js files for gallery -->
+	<!-- js for smooth scrolling -->
+
+		<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
+
+</script>
+	<!-- /js for smooth scrolling -->
+	<!-- js for sliding -->
+
+	<script>
+	$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+
+
+
+	<!-- /js for sliding -->
+	<!-- /js files -->
+
+</body>
+</html>
