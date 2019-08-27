@@ -12,11 +12,159 @@
 	<!--[if IE]>
 		<script src="http://libs.baidu.com/html5shiv/3.7/html5shiv.min.js"></script>
 	<![endif]-->
+	<style>
+		@import url("https://fonts.googleapis.com/css?family=Bungee+Shade");
+		:root {
+		  --f-size: 15;
+		  --f-unit: 1vmin;
+		  --f: calc(var(--f-size) * var(--f-unit));
+		  --bg: #181717;
+		}
+
+		*, *::after, *::before {
+		  box-sizing: border-box;
+		}
+
+		body {
+		  font-family: 'Bungee Shade', cursive;
+		  font-size: var(--f);
+		  background-color: var(--bg);
+		  display: flex;
+		  min-height: 100vh;
+		  margin: 0;
+		  overflow: hidden;
+		}
+
+		.jq22-header>p {
+		  flex: 1;
+		  line-height: .75;
+		  margin: auto;
+		  color: #1af0dc;
+		  text-align: center;
+		  transform: scaleX(var(--scale, 1));
+		  animation: glitch-p 11s infinite alternate;
+		}
+		.jq22-header>p::before, p::after {
+		  --top: 0;
+		  --left: 0;
+		  --v-height: 30%;
+		  --n-tenth: calc(var(--f-size) * .1 * var(--top));
+		  --t-cut: calc(var(--n-tenth) / var(--f-size) * 100%);
+		  --b-cut: calc(var(--t-cut) + var(--v-height));
+		  content: attr(data-text);
+		  position: absolute;
+		  width: 100%;
+		  left: 0;
+		  text-align: center;
+		  transform: translateX(calc(var(--left) * 100%));
+		  filter: drop-shadow(0 0 transparent);
+		  text-shadow: calc(var(--left) * -3em) 0 0.02em lime, calc(var(--left) * -6em) 0 0.02em #ff00e1;
+		  background-color: var(--bg);
+		  clip-path: polygon(0% var(--t-cut), 100% var(--t-cut), 100% var(--b-cut), 0% var(--b-cut));
+		}
+		.jq22-header>p::before {
+		  animation: glitch-b 1.7s infinite alternate-reverse;
+		}
+		header>p::after {
+		  animation: glitch-a 3.1s infinite alternate;
+		}
+
+		@keyframes glitch-p {
+		  17% {
+			--scale: .87;
+		  }
+		  31% {
+			--scale: 1.1;
+		  }
+		  37% {
+			--scale: 1.3;
+		  }
+		  47% {
+			--scale: .91;
+		  }
+		  87% {
+			--scale: 1;
+		  }
+		}
+		@keyframes glitch-a {
+		  10%,30%,50%,70%,90% {
+			--top: 0;
+			--left: 0;
+		  }
+		  0% {
+			--v-height: 15%;
+		  }
+		  20% {
+			--left: .005;
+		  }
+		  40% {
+			--left: .01;
+			--v-height: 20%;
+			--top: 3;
+		  }
+		  60% {
+			--left: .03;
+			--v-height: 25%;
+			--top: 6;
+		  }
+		  80% {
+			--left: .07;
+			--v-height: 5%;
+			--top: 8;
+		  }
+		  100% {
+			--left: .083;
+			--v-height: 30%;
+			--top: 1;
+		  }
+		}
+		@keyframes glitch-b {
+		  10%,30%,50%,70%,90% {
+			--top: 0;
+			--left: 0;
+		  }
+		  0% {
+			--v-height: 15%;
+			--top: 10;
+		  }
+		  20% {
+			--left: -.005;
+		  }
+		  40% {
+			--left: -.01;
+			--v-height: 17%;
+			--top: 3;
+		  }
+		  60% {
+			--left: -.03;
+			--v-height: 35%;
+			--top: 6;
+		  }
+		  80% {
+			--left: -.07;
+			--v-height: 5%;
+			--top: 8;
+		  }
+		  100% {
+			--left: -.083;
+			--v-height: 30%;
+			--top: 1;
+		  }
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+
+	<script>
+		window.onload = function() {
+		  startTime();
+		};
+	</script>
 </head>
 <body>
-	<article class="jq22-container">
+	<article class="jq22-container" style="padding-left: 25%;">
 		<header class="jq22-header">
-			<h1>MENU</h1>
+			<p data-text="MENU">MENU</p>
+			<!--<h1>MENU</h1>-->
 		</header>
 		<ul class="metro">
   
@@ -33,7 +181,101 @@
 		  <span class="close"></span>
 		  <p></p>
 		</div>
-		<div id="player" style="display:block;"></div>
+		<div class="nixcont" style="top: 90%; left: 48%;">
+
+			<div class="nixpair">
+
+				<div class="nixbg">
+					<div id="nix_h1_0" class="nix">0</div>
+					<div id="nix_h1_1" class="nix">1</div>
+					<div id="nix_h1_2" class="nix">2</div>
+					<div id="nix_h1_3" class="nix">3</div>
+					<div id="nix_h1_4" class="nix">4</div>
+					<div id="nix_h1_5" class="nix">5</div>
+					<div id="nix_h1_6" class="nix">6</div>
+					<div id="nix_h1_7" class="nix">7</div>
+					<div id="nix_h1_8" class="nix">8</div>
+					<div id="nix_h1_9" class="nix">9</div>
+				</div>
+
+				<div class="nixbg">
+					<div id="nix_h2_0" class="nix">0</div>
+					<div id="nix_h2_1" class="nix">1</div>
+					<div id="nix_h2_2" class="nix">2</div>
+					<div id="nix_h2_3" class="nix">3</div>
+					<div id="nix_h2_4" class="nix">4</div>
+					<div id="nix_h2_5" class="nix">5</div>
+					<div id="nix_h2_6" class="nix">6</div>
+					<div id="nix_h2_7" class="nix">7</div>
+					<div id="nix_h2_8" class="nix">8</div>
+					<div id="nix_h2_9" class="nix">9</div>
+				</div>
+
+			</div>
+
+
+			<div class="nixpair">
+
+				<div class="nixbg">
+					<div id="nix_m1_0" class="nix">0</div>
+					<div id="nix_m1_1" class="nix">1</div>
+					<div id="nix_m1_2" class="nix">2</div>
+					<div id="nix_m1_3" class="nix">3</div>
+					<div id="nix_m1_4" class="nix">4</div>
+					<div id="nix_m1_5" class="nix">5</div>
+					<div id="nix_m1_6" class="nix">6</div>
+					<div id="nix_m1_7" class="nix">7</div>
+					<div id="nix_m1_8" class="nix">8</div>
+					<div id="nix_m1_9" class="nix">9</div>
+				</div>
+
+				<div class="nixbg">
+					<div id="nix_m2_0" class="nix">0</div>
+					<div id="nix_m2_1" class="nix">1</div>
+					<div id="nix_m2_2" class="nix">2</div>
+					<div id="nix_m2_3" class="nix">3</div>
+					<div id="nix_m2_4" class="nix">4</div>
+					<div id="nix_m2_5" class="nix">5</div>
+					<div id="nix_m2_6" class="nix">6</div>
+					<div id="nix_m2_7" class="nix">7</div>
+					<div id="nix_m2_8" class="nix">8</div>
+					<div id="nix_m2_9" class="nix">9</div>
+				</div>
+
+			</div>
+
+
+			<div class="nixpair">
+
+				<div class="nixbg">
+					<div id="nix_s1_0" class="nix">0</div>
+					<div id="nix_s1_1" class="nix">1</div>
+					<div id="nix_s1_2" class="nix">2</div>
+					<div id="nix_s1_3" class="nix">3</div>
+					<div id="nix_s1_4" class="nix">4</div>
+					<div id="nix_s1_5" class="nix">5</div>
+					<div id="nix_s1_6" class="nix">6</div>
+					<div id="nix_s1_7" class="nix">7</div>
+					<div id="nix_s1_8" class="nix">8</div>
+					<div id="nix_s1_9" class="nix">9</div>
+				</div>
+
+				<div class="nixbg">
+					<div id="nix_s2_0" class="nix">0</div>
+					<div id="nix_s2_1" class="nix">1</div>
+					<div id="nix_s2_2" class="nix">2</div>
+					<div id="nix_s2_3" class="nix">3</div>
+					<div id="nix_s2_4" class="nix">4</div>
+					<div id="nix_s2_5" class="nix">5</div>
+					<div id="nix_s2_6" class="nix">6</div>
+					<div id="nix_s2_7" class="nix">7</div>
+					<div id="nix_s2_8" class="nix">8</div>
+					<div id="nix_s2_9" class="nix">9</div>
+				</div>
+
+			</div>
+
+		</div>
 	</article>
 	
 	<script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
@@ -63,6 +305,70 @@
 	    });
 	});*/
 
+	//These functions help add, remove or toggle css classes
+
+	function tog_class(id, cl) {
+	  var elem = document.getElementById(id);
+	  if (elem.classList.contains(cl) === true) {
+		elem.classList.remove(cl);
+	  } else {
+		elem.classList.add(cl);
+	  }
+	}
+
+	function add_class(id, cl) {
+	  var elem = document.getElementById(id);
+	  if (elem.classList.contains(cl) !== true) {
+		elem.classList.add(cl);
+	  }
+	}
+
+	function rem_class(id, cl) {
+	  var elem = document.getElementById(id);
+	  if (elem.classList.contains(cl) === true) {
+		elem.classList.remove(cl);
+	  }
+	}
+
+	//This function gets the date and does operations using H/M/S
+
+	function startTime() {
+	  var today = new Date();
+	  var h = today.getHours();
+	  var m = today.getMinutes();
+	  var s = today.getSeconds();
+
+	  var h1 = (h - h % 10) / 10;
+	  var h2 = h % 10;
+
+	  var m1 = (m - m % 10) / 10;
+	  var m2 = m % 10;
+
+	  var s1 = (s - s % 10) / 10;
+	  var s2 = s % 10;
+
+	  set_nix_class("s1", s1);
+	  set_nix_class("s2", s2);
+
+	  set_nix_class("m1", m1);
+	  set_nix_class("m2", m2);
+
+	  set_nix_class("h1", h1);
+	  set_nix_class("h2", h2);
+
+	  var t = setTimeout(startTime, 500);
+	}
+
+	//This function calls the appropriate class changes 
+
+	function set_nix_class(target, val) {
+	  for (i = 0; i < 10; i++) {
+		if (i != val) {
+		  rem_class("nix_" + target + "_" + i, "nix_open");
+		}
+	  }
+	  add_class("nix_" + target + "_" + val, "nix_open");
+	}
 	</script>
 </body>
 </html>
